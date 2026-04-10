@@ -196,8 +196,8 @@ with tab5:
     comparison.index.name = "Ticker"
     fmt_map = {"Sharpe Ratio": "{:.2f}", "Beta": "{:.2f}", "Alpha (daily)": "{:.4f}"}
     st.dataframe(
-        comparison.style.format({
-            col: fmt_map.get(col, "{:.2%}") for col in comparison.columns
-        }).background_gradient(subset=["Sharpe Ratio"], cmap="RdYlGn"),
-        use_container_width=True
+    comparison.style.format({
+        col: fmt_map.get(col, "{:.2%}") for col in comparison.columns
+    }),
+    use_container_width=True
     )
