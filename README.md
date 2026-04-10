@@ -10,7 +10,8 @@ with interactive risk analytics and strategy optimisation tools.
 
 ## Screenshot
 
-> *()*
+> *![Quant Research Lab](p1.png)*
+> *![Quant Research Lab](p2.png)*
 
 ---
 
