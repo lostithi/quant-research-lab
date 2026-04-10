@@ -43,25 +43,25 @@ Streamlit dashboard.
 
 ## Project Structure
 
-quant-research-lab/
-├── app/
-│ └── quant_dashboard.py # Streamlit dashboard (entry point)
-├── src/
-│ ├── data/
-│ │ └── market_data.py # Market data loading and caching
-│ ├── strategies/
-│ │ └── signals.py # Strategy signal generation
-│ ├── backtest/
-│ │ ├── engine.py # Backtest execution engine
-│ │ └── optimiser.py # Parameter sweep and optimisation
-│ └── risk/
-│ └── metrics.py # Risk and performance metrics
-├── tests/
-│ └── test_backtest.py # Unit tests
-├── requirements.txt
-└── README.md
+quant-research-lab/  
+├── app/  
+│ └── quant_dashboard.py # Streamlit dashboard (entry point)  
+├── src/  
+│ ├── data/  
+│ │ └── market_data.py # Market data loading and caching  
+│ ├── strategies/  
+│ │ └── signals.py # Strategy signal generation  
+│ ├── backtest/  
+│ │ ├── engine.py # Backtest execution engine  
+│ │ └── optimiser.py # Parameter sweep and optimisation  
+│ └── risk/  
+│ └── metrics.py # Risk and performance metrics  
+├── tests/  
+│ └── test_backtest.py # Unit tests  
+├── requirements.txt  
+└── README.md  
 
-
+  
 ---
 
 ## Strategies
