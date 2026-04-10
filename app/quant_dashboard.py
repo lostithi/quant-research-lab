@@ -170,7 +170,7 @@ with tab4:
     ].copy()
     trades.columns = ["Price", "Signal", "Change", "Return", "Equity"]
     trades["Action"] = trades["Change"].apply(lambda x: "BUY" if x > 0 else "SELL")
-    st.dataframe(trades.style.applymap(
+    st.dataframe(trades.style.map(
         lambda v: "color: #00CC96" if v == "BUY" else "color: #EF553B",
         subset=["Action"]
     ), use_container_width=True)
