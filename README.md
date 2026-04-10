@@ -159,8 +159,8 @@ PYTHONPATH=. pytest
 
 ## Author
 
-**Mohammed Ihthisham Neelam Kadavil** (lostithi)
-MSc Data Sciene— Heriot-Watt University
+**Mohammed Ihthisham Neelam Kadavil** (lostithi)  
+MSc Data Science— Heriot-Watt University  
 [LinkedIn](www.linkedin.com/in/mohammed-ihthisham-neelam-kadavil) · [GitHub](https://github.com/lostithi)
 
 ---
